@@ -48,9 +48,10 @@ CodeCoverage/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
-# .gitignore
-bin/
-obj/
+
+# bin 폴더는 추적하지만, zipDeleter.exe는 무시
+bin/**/*.exe
+
 
 
 # NUnit
