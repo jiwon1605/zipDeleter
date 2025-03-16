@@ -48,6 +48,11 @@ CodeCoverage/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+# .gitignore
+bin/
+obj/
+
+
 # NUnit
 *.VisualState.xml
 TestResult.xml
